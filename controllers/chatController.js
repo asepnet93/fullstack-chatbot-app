@@ -1,4 +1,5 @@
 import genAI from "../config/gemini.js";
+import fs from "fs";
 
 export const chat = async (req, res) => {
   try {
