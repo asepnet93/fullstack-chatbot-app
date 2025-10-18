@@ -1,0 +1,44 @@
+{
+  "name": "fullstack-chatbot-app",
+  "version": "1.0.0",
+  "description": "Multi-modal AI API backend with Google Gemini, Express.js, and file processing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asepnet93/fullstack-chatbot-app.git"
+  },
+  "keywords": [
+    "express",
+    "multer",
+    "gemini",
+    "nodejs",
+    "api",
+    "ai",
+    "multimodal",
+    "chatbot"
+  ],
+  "author": "Asep Ridwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "cd fullstack-chatbot-app/issues"
+  },
+  "homepage": "https://github.com/asepnet93/fullstack-chatbot-app#readme",
+  "dependencies": {
+    "@google/genai": "1.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.1.0",
+    "multer": "^1.4.5-lts.1",
+    "vite": "^7.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
