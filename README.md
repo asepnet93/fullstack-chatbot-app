@@ -63,7 +63,7 @@ npm install
 
 ### 🔑 Configure Environment
 
-Create a `.env` file:
+Rename .env.example file to .env and fill in your environment variables:
 
 ```env
 GEMINI_API_KEY=your_google_gemini_api_key_here
